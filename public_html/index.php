@@ -123,7 +123,7 @@ function printCouriers() {
     foreach ($сouriers as $u) {
         echo "<tr>
             <td>{$u['id']}</td>
-            <td>{$u['name']} {$u['name']}</td>
+            <td>{$u['name']}</td>
         </tr>";
     }
 }
